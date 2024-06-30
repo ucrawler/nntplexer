@@ -98,16 +98,14 @@ node = 2 or 10
 
 # Todo
 
-cache articles on mongodb using ttl 
+Cache articles on mongodb using ttl. 
 
-or
+Cache articles 'multi continent' conveniently to externals using CloudFlare R2.
 
-cache articles 'multi continent' conveniently to externals using cf r2
+Use JBOD for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between JBOD's using postdate somehow.
 
-Use jbod for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between jbod's using postdate somehow.
+Skip backends using article postdate and backend retention.
 
-skip backends using article postdate and backend retention
+Skip backend when poster name doesn't match :-)
 
-skip backend when poster name doesn't match :-)
-
-replace mysql with sqlite
+Replace mysql with sqlite
