@@ -29,6 +29,7 @@ I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching 
 Only external counts for bandwidth.
 
 1 ngninja account allows you to split 50 connections between upto 50 accounts at the same time to access usenet with over 2 gbit/s speed, shorten the distance as much as possible between your account and the internal.
+
 A vm in the south east of USA will give you the best speeds possible. 
 
 Just imagine the flow in your head, total latency between all hops == speed. Usenet -> internal -> client and client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec.
