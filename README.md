@@ -69,7 +69,10 @@ stream {
 
 ```ini
 [server]
-proxy_protocol = on
+addr = "0.0.0.0"
+port = 9998
+proxy_protocol = off
+node = 2 or 10
 ```
 
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana%20dashboard.png)
