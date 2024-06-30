@@ -1,6 +1,8 @@
 # nntplexer
 
-Start your own independant tier 2 usenet business without the need for any storage.
+Start your own independant tier 2 usenet business without the need for any storage 
+or
+simply share your account with friends and family
 
 Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
