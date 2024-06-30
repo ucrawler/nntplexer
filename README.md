@@ -20,6 +20,8 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 or more accounts from https://whatsmyuse.net/ is what you need.
 
+clients are load balanced using ip hash. :-)
+
 Destroy and re-create VM when reaching 20 TB to reset bandwidth :-)
 
 I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article.
@@ -44,7 +46,7 @@ skip backends using poster name
 
 ```nginx
 upstream nntplexer {
-    least_conn;
+    ip_hash;
     server 127.0.0.1:9999;
 }
 
