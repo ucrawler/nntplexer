@@ -18,9 +18,11 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 or more hetzner 2 core vm's for internal
 
-+
+and
 
-1 upto 4 hetzner 1 core vm's for external (RRDNS) +
+1 upto 4 hetzner 1 core vm's for external (RRDNS)
+
+and
 
 1 or more accounts from https://whatsmyuse.net/ for every internal backend backbone.
 
