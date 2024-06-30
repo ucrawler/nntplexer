@@ -4,7 +4,7 @@ Start your own independant tier 2 usenet business without the need for any stora
 
 or
 
-simply share your account with friends and family
+simply share your account with friends and family using your home computer
 
 Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
