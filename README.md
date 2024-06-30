@@ -30,4 +30,4 @@ stream {
 proxy_protocol = on
 ```
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana%20dashboard.png))
+![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana%20dashboard.png)
