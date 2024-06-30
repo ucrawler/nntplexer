@@ -6,7 +6,7 @@ or
 
 simply share your account with friends and family using your home computer
 
-Can be compiled for any OS.
+Can be compiled for any OS and doesn't require any dependancies.
 
 Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
