@@ -44,11 +44,11 @@ skip backends using article postdate and backend retention
 
 skip backend when poster name doesn't match :-)
 
-generate ssl with letsencrypt, switch to positivessl to support the remaining 1%
-
 ## Proxying
 
 ### nginx (external)
+
+generate ssl with letsencrypt, switch to positivessl to support the remaining 1%
 
 `nginx.conf`
 
