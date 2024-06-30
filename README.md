@@ -16,6 +16,8 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 gbit throughput per vm core, backends are tried in sequential order by priority in case of missing article.
 
+You need:
+
 1 or more hetzner 2 core vm's for internal
 
 and
