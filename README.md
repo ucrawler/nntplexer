@@ -4,15 +4,13 @@ Start your own independant tier 2 usenet business without the need for any stora
 
 or
 
-simply share your account with friends and family using your home computer
+Simply share your account with friends and family using your home computer
 
-Can be compiled for any OS and doesn't require any dependancies.
+Compiles to 1 binary to execute with ease for any OS and does multicore.
 
 Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
 NNTP protocol multiplexer with auth, stats, multiple backends, etc.
-
-1 binary to deploy which does multicore.
 
 1 gbit throughput per vm core, backends are tried in sequential order by priority in case of missing article.
 
