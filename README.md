@@ -82,5 +82,6 @@ node = 2 or 10
 
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana%20dashboard.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/backends%20table.png)
+![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/users%20table.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/vms.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/console.png)
