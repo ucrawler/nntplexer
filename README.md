@@ -34,3 +34,4 @@ proxy_protocol = on
 ```
 
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana%20dashboard.png)
+![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/backends%20table.png)
