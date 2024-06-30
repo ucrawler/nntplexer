@@ -36,7 +36,7 @@ cache articles on mongodb using ttl
 
 skip backends using article postdate and backend retention
 
-skip backends using poster name
+skip backend when poster name doesn't match :-)
 
 ## Proxying
 
