@@ -30,7 +30,7 @@ Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&
 
 todo
 
-cache articles on disk using ttl
+cache articles on mongodb using ttl
 
 skip backends using article postdate and backend retention
 
