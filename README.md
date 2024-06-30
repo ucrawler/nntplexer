@@ -16,7 +16,7 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 or more hetzner 4 core vm's for internal + 
 
-1 or more hetzner 1 core vm's for external (RRDNS) +
+1 upto 4 hetzner 1 core vm's for external (RRDNS) +
 
 1 or more accounts from https://whatsmyuse.net/ is what you need.
 
