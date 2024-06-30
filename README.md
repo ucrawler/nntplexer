@@ -20,8 +20,8 @@
 - You need to shorten the distance as much as possible between your proxied account's host and the internal.
 - A VM in Ashburn, Virginia will give you these results with above account. Experiment from there.
 - Just imagine the flow in your head, total latency between all hops == speed. 
-- Usenet -> internal -> client
-- client -> internal -> Usenet
+- Usenet -> internal -> external -> client
+- client -> external -> internal -> Usenet
 - 2 gbit/sec = 285 roundtrips per sec sequentially per backend.
 - Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 - Does anyone really know how usenet works? Imagine there is only 1 backbone in reality and you can lease it to start another backbone and you start fresh with no 'missing articles'...
