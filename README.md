@@ -1,6 +1,6 @@
 # nntplexer
 
-- Start your own independant tier 2 usenet business without the need for any storage or
+- Start your own independant tier 2 usenet business without the need for any storage.
 - Share your account with friends and family using your home computer easily.
 - Usenet providers don't allow an account to be used from multiple IP's. Running a plexer allows you to bypass it. Your users are not allowed to share their account from multiple ip's. They can run the same plexer to bypass it.
 - Compiles to 1 binary to execute with ease for any OS and does multicore.
