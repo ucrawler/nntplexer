@@ -53,23 +53,7 @@ Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15
 Does anyone really know how usenet works? Imagine there is only 1 backbone in reality and you can lease it to start another backbone and you start fresh with no 'missing articles'...
 8 backbones storing 300 TB daily feed size == 2400 TB of new storage being added on a daily business. Do you work together or struggle together???
 
-# todo
-
-cache articles on mongodb using ttl 
-
-or
-
-cache articles 'multi continent' conveniently to externals using cf r2
-
-Use jbod for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between jbod's using postdate somehow.
-
-skip backends using article postdate and backend retention
-
-skip backend when poster name doesn't match :-)
-
-replace mysql with sqlite
-
-## Proxying
+## Setup
 
 ### nginx (external)
 
@@ -111,3 +95,19 @@ node = 2 or 10
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/vms.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/console.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/article%20succes%20rate.png)
+
+# Todo
+
+cache articles on mongodb using ttl 
+
+or
+
+cache articles 'multi continent' conveniently to externals using cf r2
+
+Use jbod for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between jbod's using postdate somehow.
+
+skip backends using article postdate and backend retention
+
+skip backend when poster name doesn't match :-)
+
+replace mysql with sqlite
