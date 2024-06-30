@@ -1,10 +1,8 @@
 # nntplexer
 
-Start your own independant tier 2 usenet business without the need for any storage 
+Start your own independant tier 2 usenet business without the need for any storage or
 
-or
-
-Simply share your account with friends and family using your home computer
+Share your account with friends and family using your home computer easily.
 
 Usenet providers don't allow an account to be used from multiple IP's. Running a plexer allows you to bypass it. Your users are not allowed to share their account from multiple ip's. They can run the same plexer to bypass it.
 
@@ -18,17 +16,13 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 You need:
 
-1 or more hetzner 2 core vm's for internal
+1 or more hetzner 2 core vm's for internal and
 
-and
-
-1 upto 4 hetzner 1 core vm's for external (RRDNS)
-
-and
+1 upto 4 hetzner 1 core vm's for external (RRDNS) and
 
 1 or more accounts from https://whatsmyuse.net/ for every internal backend backbone.
 
-Clients are load balanced using ip hash, hit the same internal always to protect your accounts :-)
+Clients are load balanced using ip hash, hit the same internal always to protect your accounts. :-)
 
 Destroy and re-create VM when reaching 20 TB to reset bandwidth and avoid paying the 1 EUR per TB surcharge.
 
@@ -108,4 +102,4 @@ Skip backends using article postdate and backend retention.
 
 Skip backend when poster name doesn't match :-)
 
-Replace mysql with sqlite
+Replace mysql with sqlite.
