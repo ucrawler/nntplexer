@@ -18,7 +18,7 @@
 - 1 ngninja account allows you to split 50 connections between upto 50 accounts at the same time to access usenet with over 2 gbit/s speed.
 - Add 3 accounts and set your client to 150 connections for a chuckle.
 - You need to shorten the distance as much as possible between your proxied account's host and the internal.
-- A VM in Ashburn, Virginia will give you these results with above account. Expirement from there.
+- A VM in Ashburn, Virginia will give you these results with above account. Experiment from there.
 - Just imagine the flow in your head, total latency between all hops == speed. 
 - Usenet -> internal -> client and client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec per backend.
 - Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
