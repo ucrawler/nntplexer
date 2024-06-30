@@ -34,7 +34,9 @@ Only external counts for bandwidth.
 
 A VM in Ashburn, Virginia will give you these results with above account. Expirement from there.
 
-Just imagine the flow in your head, total latency between all hops == speed. Usenet -> internal -> client and client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec per backend.
+Just imagine the flow in your head, total latency between all hops == speed. 
+
+Usenet -> internal -> client and client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec per backend.
 
 Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 
