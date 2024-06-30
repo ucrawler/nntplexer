@@ -1,1 +1,0 @@
-go mod download -x && go build
