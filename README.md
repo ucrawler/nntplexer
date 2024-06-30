@@ -102,3 +102,4 @@ node = 2 or 10
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/users%20table.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/vms.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/console.png)
+![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/article%20succes%20rate.png)
