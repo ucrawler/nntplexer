@@ -24,7 +24,7 @@ Clients are load balanced using ip hash, hit the same internal always to protect
 
 Destroy and re-create VM when reaching 20 TB to reset bandwidth :-)
 
-I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article.
+I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article. :-)
 
 Only external counts for bandwidth.
 
