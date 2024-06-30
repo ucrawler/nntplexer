@@ -29,3 +29,5 @@ stream {
 [server]
 proxy_protocol = on
 ```
+
+![alt text](https://github.com/ucrawler/nntplexer/blob/[branch]/image.jpg?raw=true)
