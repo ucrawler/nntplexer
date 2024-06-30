@@ -44,6 +44,8 @@ Usenet -> internal -> client and client -> internal -> Usenet is travelled every
 
 Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 
+Does anyone really know how usenet works? Imagine there is only 1 backbone in reality and you can lease it to start another backbone and you start fresh with no 'missing articles'...
+
 # todo
 
 cache articles on mongodb using ttl 
