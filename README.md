@@ -30,7 +30,10 @@ I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching 
 
 Only external counts for bandwidth.
 
-1 ngninja account allows you to split 50 connections between upto 50 accounts at the same time to access usenet with over 2 gbit/s speed, shorten the distance as much as possible between your proxied account's host and the internal.
+1 ngninja account allows you to split 50 connections between upto 50 accounts at the same time to access usenet with over 2 gbit/s speed.
+Add 3 accounts and set your client to 150 connections for a chuckle.
+
+You need to shorten the distance as much as possible between your proxied account's host and the internal.
 
 A VM in Ashburn, Virginia will give you these results with above account. Expirement from there.
 
