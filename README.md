@@ -6,7 +6,9 @@ Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
 NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
-1 gbit per vm core, backends are tried in sequential order by priority in case of missing article.
+1 binary to deploy which does multicore.
+
+1 gbit throughput per vm core, backends are tried in sequential order by priority in case of missing article.
 
 1 or more hetzner 4 core vm's + 1 or more accounts from https://whatsmyuse.net/ is what you need.
 
