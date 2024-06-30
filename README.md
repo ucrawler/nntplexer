@@ -20,7 +20,7 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 or more accounts from https://whatsmyuse.net/ is what you need.
 
-clients are load balanced using ip hash. :-)
+Clients are load balanced using ip hash, hit the same internal always to protect your accounts :-)
 
 Destroy and re-create VM when reaching 20 TB to reset bandwidth :-)
 
