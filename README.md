@@ -8,6 +8,8 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 gbit per vm core, backends are tried in sequential order by priority in case of missing article.
 
+1 hetzner 4 core vm + 1 or more accounts from https://whatsmyuse.net/ is what you need.
+
 ## Proxying
 
 ### nginx
