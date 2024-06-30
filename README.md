@@ -2,6 +2,9 @@
 
 NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
+1 gbit per vm core
+backends are tried in sequential order in case of missing article
+
 ## Proxying
 
 ### nginx
