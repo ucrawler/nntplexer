@@ -2,6 +2,8 @@
 
 Start your own independant tier 2 usenet business without the need for any storage.
 
+Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
+
 NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 1 gbit per vm core, backends are tried in sequential order by priority in case of missing article.
