@@ -48,7 +48,7 @@ generate ssl with letsencrypt, switch to positivessl to support the remaining 1%
 
 ## Proxying
 
-### nginx
+### nginx (external)
 
 `nginx.conf`
 
@@ -70,7 +70,7 @@ stream {
 }
 ```
 
-`nntplexer.ini`
+`nntplexer.ini` (internal)
 
 ```ini
 [server]
