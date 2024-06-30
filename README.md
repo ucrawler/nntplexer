@@ -33,7 +33,8 @@ Only external counts for bandwidth.
 A vm in the south east of USA will give you the best speeds possible. 
 
 Just imagine the flow in your head, total latency between all hops == speed. Usenet -> internal -> client and client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec.
-Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
+
+Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 
 todo
 
