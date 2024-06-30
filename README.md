@@ -26,6 +26,14 @@ Only external counts for bandwidth.
 
 Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 
+todo
+
+cache articles on disk using ttl
+
+skip backends using article postdate and backend retention
+
+skip backends using poster name
+
 ## Proxying
 
 ### nginx
