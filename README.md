@@ -28,6 +28,8 @@ I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching 
 
 Only external counts for bandwidth.
 
+1 ngninja account allows you to split 50 connections between upto 50 accounts at the same time to access usenet sith over 2 gbit/s speeds, shorten the distance as much as possible between your account and the internal.
+
 Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 
 todo
