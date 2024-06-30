@@ -79,7 +79,7 @@ stream {
 }
 ```
 
-### `nntplexer.ini` (internal)
+### nntplexer.ini (internal)
 
 ```ini
 [server]
