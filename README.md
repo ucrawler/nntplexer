@@ -20,6 +20,8 @@ Destroy and re-create VM when reaching 20 TB to reset bandwidth :-)
 
 I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article.
 
+1 core for external and 4 cores for internal.
+
 Only external counts for bandwidth.
 
 Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
