@@ -44,6 +44,8 @@ skip backends using article postdate and backend retention
 
 skip backend when poster name doesn't match :-)
 
+generate ssl with letsencrypt, switch to positivessl to support the remaining 1%
+
 ## Proxying
 
 ### nginx
@@ -52,15 +54,18 @@ skip backend when poster name doesn't match :-)
 
 ```nginx
 upstream nntplexer {
-    ip_hash;
-    server 127.0.0.1:9999;
+    hash $remote_addr;
+    server 10.0.0.3:9998;
+    server 10.0.0.4:9998;
 }
 
 stream {
     server {
-        listen 8888;
+        listen 9999 ssl;
+        ssl_certificate /etc/nginx/bundle.crt;
+        ssl_certificate_key /etc/nginx/key.txt;
         proxy_pass nntplexer;
-        proxy_protocol on;
+        proxy_protocol off;
     }
 }
 ```
