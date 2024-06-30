@@ -21,8 +21,8 @@
 - A VM in Ashburn, Virginia will give you these results with above account. Experiment from there.
 - Just imagine the flow in your head, total latency between all hops == speed. 
 - Usenet -> internal -> client
-
-client -> internal -> Usenet is travelled every message ID. 2 gbit/sec = 285 roundtrips per sec per backend.
+- client -> internal -> Usenet
+- 2 gbit/sec = 285 roundtrips per sec per backend.
 - Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 - Does anyone really know how usenet works? Imagine there is only 1 backbone in reality and you can lease it to start another backbone and you start fresh with no 'missing articles'...
 8 backbones storing 300 TB daily feed size == 2400 TB of new storage being added on a daily business. Do you work together or struggle together???
