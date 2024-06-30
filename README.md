@@ -16,6 +16,8 @@ I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching 
 
 Only external counts for bandwidth.
 
+Wil you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
+
 ## Proxying
 
 ### nginx
