@@ -6,6 +6,8 @@ or
 
 simply share your account with friends and family using your home computer
 
+Can be compiled for any OS.
+
 Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 
 NNTP protocol multiplexer with auth, stats, multiple backends, etc.
