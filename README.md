@@ -48,6 +48,8 @@ skip backends using article postdate and backend retention
 
 skip backend when poster name doesn't match :-)
 
+replace mysql with sqlite
+
 ## Proxying
 
 ### nginx (external)
