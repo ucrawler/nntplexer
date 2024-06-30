@@ -7,11 +7,11 @@
 - Inspired by https://github.com/ovpn-to/oVPN.to-Advanced-NNTP-Proxy
 - NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 - 1 gbit throughput per vm core, backends are tried in sequential order by priority in case of missing article.
-- You need:
+- You need
 - 1 or more hetzner 2 core vm's for internal and
 - 1 upto 4 hetzner 1 core vm's for external (RRDNS) and
 - 1 or more accounts from https://whatsmyuse.net/ for every internal backend backbone.
-- Clients are load balanced using ip hash, hit the same internal always to protect your accounts. :-)
+- Clients are load balanced using ip hash, client accounts use the same internal always so your other internal backbone accounts are protected. :-)
 - Destroy and re-create VM when reaching 20 TB to reset bandwidth and avoid paying the 1 EUR per TB surcharge.
 - I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article. :-)
 - Only external counts for bandwidth.
