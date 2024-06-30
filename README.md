@@ -55,6 +55,8 @@ or
 
 cache articles 'multi continent' conveniently to externals using cf r2
 
+Use jbod for article caching, we don't care about data loss and want to minimize data loss on a drive issue.
+
 skip backends using article postdate and backend retention
 
 skip backend when poster name doesn't match :-)
