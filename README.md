@@ -22,7 +22,7 @@ NNTP protocol multiplexer with auth, stats, multiple backends, etc.
 
 Clients are load balanced using ip hash, hit the same internal always to protect your accounts :-)
 
-Destroy and re-create VM when reaching 20 TB to reset bandwidth :-)
+Destroy and re-create VM when reaching 20 TB to reset bandwidth
 
 I suggest 1 external and 1 internal to start out with to 'hide' the IP fetching the article. :-)
 
