@@ -22,6 +22,7 @@
 - Just imagine the flow in your head, total latency between all hops == speed. 
 - Usenet -> internal -> external -> client
 - client -> external -> internal -> Usenet
+- https://www.google.de/maps/place/Ashburn,+VA,+USA/@44.5185112,-79.1564869,5z/data=!4m6!3m5!1s0x89b615f166fcc957:0x9da316eb11e3d5b!8m2!3d39.0437567!4d-77.4874416!16zL20vMDVwNDZr?entry=ttu
 - 2 gbit/sec = 285 roundtrips per sec sequentially per backend.
 - Will you be able to reach https://www.fdcservers.net/configurator?fixedFilter=15&fixedFilterType=bandwidth_option ?
 - Does anyone really know how usenet works? Imagine there is only 1 backbone in reality and you can lease it to start another backbone and you start fresh with no 'missing articles'...
