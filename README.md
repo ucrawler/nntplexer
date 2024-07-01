@@ -65,11 +65,12 @@ node = 2 or 10
 
 ### mysql
 
-...
+- ...
 
 ### grafana
 
-https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana.json
+- https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana.json
+- add metrics url
 
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/backends%20table.png)
