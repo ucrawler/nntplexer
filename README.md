@@ -63,6 +63,14 @@ proxy_protocol = off
 node = 2 or 10
 ```
 
+### mysql
+
+...
+
+### grafana
+
+https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana.json
+
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/grafana.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/backends%20table.png)
 ![alt text](https://raw.githubusercontent.com/ucrawler/nntplexer/main/users%20table.png)
