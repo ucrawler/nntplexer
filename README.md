@@ -84,7 +84,7 @@ node = 2 or 10
 
 - Cache articles on mongodb using ttl. 
 - Cache articles 'multi continent' conveniently using CloudFlare R2.
-- Use JBOD for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between JBOD's using postdate somehow.
+- Use JBOD for article caching, we don't care about data loss and want to minimize data loss on a drive issue. Spread articles between JBOD's using postdate somehow. Re-fetch from secondary backends.
 - Skip backends using article postdate and backend retention.
 - Skip backend when poster name doesn't match. :-)
 - Replace mysql with sqlite.
