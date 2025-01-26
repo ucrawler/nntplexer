@@ -30,6 +30,109 @@
 
 ## Setup
 
+### Setup Ubuntu 20.04
+
+#### Install Software
+
+```
+apt install nginx mariadb-server certbot python3-certbot-nginx
+```
+
+#### Setup Database
+```
+mysql_secure_installation
+
+mysql
+
+CREATE DATABASE nntp;
+CREATE USER 'nntp'@'localhost' IDENTIFIED BY 'changeme'; 
+GRANT ALL PRIVILEGES ON *.* TO 'nntp'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
+
+#### Setup Nginx
+Generate SSL certificates
+```
+certbot --nginx -d your.domain.com
+```
+
+you get two output files at
+
+
+
+Open /etc/nginx/nginx.conf and insert at the end change ssl_certificate path according to url
+```
+stream {
+    upstream nntplexer {
+        hash $remote_addr;
+        server localhost:9998;
+    }
+
+    server {
+        listen 9999 ssl;
+        ssl_certificate /etc/letsencrypt/live/your.domain.com/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/your.domain.com/privkey.pem;
+
+        # Optional: Add SSL parameters for better security
+        ssl_protocols TLSv1.2 TLSv1.3;
+        ssl_ciphers 'HIGH:!aNULL:!MD5';
+        ssl_prefer_server_ciphers on;
+
+        proxy_pass nntplexer;
+        proxy_protocol off;  # Change to 'on' if upstream supports PROXY protocol
+    }
+}
+```
+
+Add cronjob for certificate renew
+```
+0 */12 * * * root certbot -q renew --nginx
+```
+
+#### Setup INI
+
+see below
+
+
+#### Add User to Database
+first hash password with:
+```
+echo -n "ENTER_PASSWORD_HERE" | sha256sum
+```
+
+login into database and add user
+```
+mysql
+
+use nntp;
+
+INSERT INTO users (name, pass, max_conns, ip_sharing, rx_bytes) VALUES ('ENTER_USERNAME', 'HASHEDPW', 10, 1, 0);
+
+exit
+```
+
+#### Add Backbone to Database
+here an example with eweka:
+```
+mysql
+
+use nntp;
+
+INSERT INTO backends (name, user, pass, host, port, use_tls, retention, priority, max_conns, max_fails, fail_timeout, connect_timeout, enabled, node)
+VALUES ('eweka', 'YOUR_USERNAME','YOUR_PASSWORD','news.eweka.nl',563,1,7000,0,50,1000,60,60,1,2);
+```
+
+
+#### Start software
+```
+chmod +x nntplexer
+
+./nntplexer
+```
+
+
+
+
 ### nginx (external)
 
 generate ssl with letsencrypt, switch to positivessl to support the remaining 1%
